@@ -23,6 +23,13 @@
         android:layout_height="wrap_content"
         android:textSize="14sp" />
 
+    <TextView
+        android:id="@+id/divider"
+        android:text="-------------------------------"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
     <!-- Add other views for task properties -->
 
 </LinearLayout>
