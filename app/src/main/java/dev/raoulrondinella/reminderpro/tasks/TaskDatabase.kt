@@ -1,4 +1,4 @@
-package com.rondinella.reminderpro.tasks
+package dev.raoulrondinella.reminderpro.tasks
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

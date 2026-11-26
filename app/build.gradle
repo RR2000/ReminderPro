@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.rondinella.reminderpro'
+    namespace 'dev.raoulrondinella.reminderpro'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.rondinella.reminderpro"
+        applicationId "dev.raoulrondinella.reminderpro"
         minSdk 26
         targetSdk 34
         versionCode 1
