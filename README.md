@@ -1,4 +1,4 @@
-# ReminderPro
+# Reminder Pro
 
 A small Android to-do app written in Kotlin in 2023. It is an early prototype that was never finished.
 

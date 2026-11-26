@@ -23,6 +23,6 @@ jobs:
         run: ./gradlew --no-daemon assembleDebug
       - uses: actions/upload-artifact@v7.0.2
         with:
-          name: reminderpro-debug-apk
+          name: reminder-pro-debug-apk
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error

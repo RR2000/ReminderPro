@@ -1,4 +1,4 @@
-package com.rondinella.reminderpro.ui
+package dev.raoulrondinella.reminderpro.ui
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -10,8 +10,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import com.rondinella.reminderpro.R
-import com.rondinella.reminderpro.databinding.ActivityMainBinding
+import dev.raoulrondinella.reminderpro.R
+import dev.raoulrondinella.reminderpro.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

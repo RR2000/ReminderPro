@@ -1,4 +1,4 @@
-package com.rondinella.reminderpro.ui
+package dev.raoulrondinella.reminderpro.ui
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
-import com.rondinella.reminderpro.R
-import com.rondinella.reminderpro.tasks.Task
+import dev.raoulrondinella.reminderpro.R
+import dev.raoulrondinella.reminderpro.tasks.Task
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

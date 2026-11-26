@@ -1,4 +1,4 @@
-package com.rondinella.reminderpro.ui
+package dev.raoulrondinella.reminderpro.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,12 +10,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
-import com.rondinella.reminderpro.R
-import com.rondinella.reminderpro.databinding.FragmentFirstBinding
+import dev.raoulrondinella.reminderpro.R
+import dev.raoulrondinella.reminderpro.databinding.FragmentFirstBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import com.rondinella.reminderpro.tasks.TaskDatabase
+import dev.raoulrondinella.reminderpro.tasks.TaskDatabase
 
 class FirstFragment : Fragment() {
 

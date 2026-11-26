@@ -1,4 +1,4 @@
-package com.rondinella.reminderpro.ui
+package dev.raoulrondinella.reminderpro.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.room.Room
-import com.rondinella.reminderpro.R
-import com.rondinella.reminderpro.databinding.FragmentSecondBinding
-import com.rondinella.reminderpro.tasks.Task
-import com.rondinella.reminderpro.tasks.TaskDatabase
+import dev.raoulrondinella.reminderpro.R
+import dev.raoulrondinella.reminderpro.databinding.FragmentSecondBinding
+import dev.raoulrondinella.reminderpro.tasks.Task
+import dev.raoulrondinella.reminderpro.tasks.TaskDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
